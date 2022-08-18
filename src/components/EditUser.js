@@ -31,7 +31,6 @@ const EditUser = (props) => {
             // update users state variable
             console.log('response-->', response)
             props.updateUser(response.data)
-            
         })
     }
 
